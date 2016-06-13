@@ -1,6 +1,9 @@
 {
   "name": "lezhnev74/eximport",
   "description": "Library to easily validate and import Excel data",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
   "require": {
     "phpoffice/phpexcel": "1.8.*"
   },
