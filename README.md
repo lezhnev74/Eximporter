@@ -1,3 +1,9 @@
+[![Latest Stable Version](https://poser.pugx.org/lezhnev74/eximport/v/stable)](https://packagist.org/packages/lezhnev74/eximport)
+[![License](https://poser.pugx.org/lezhnev74/eximport/license)](https://packagist.org/packages/lezhnev74/eximport)
+[![Total Downloads](https://poser.pugx.org/lezhnev74/eximport/downloads)](https://packagist.org/packages/lezhnev74/eximport)
+[![composer.lock](https://poser.pugx.org/lezhnev74/eximport/composerlock)](https://packagist.org/packages/lezhnev74/eximport)
+
+
 # Eximporter
 Object oriented Excel importer with input validation
 It lets you to import any excel file, validate each cell and do your business logic with good and failed ones.
