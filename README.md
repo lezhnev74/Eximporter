@@ -1,7 +1,9 @@
+[![Build Status](https://travis-ci.org/lezhnev74/Eximporter.svg?branch=master)](https://travis-ci.org/lezhnev74/Eximporter)
 [![Latest Stable Version](https://poser.pugx.org/lezhnev74/eximport/v/stable)](https://packagist.org/packages/lezhnev74/eximport)
 [![License](https://poser.pugx.org/lezhnev74/eximport/license)](https://packagist.org/packages/lezhnev74/eximport)
 [![Total Downloads](https://poser.pugx.org/lezhnev74/eximport/downloads)](https://packagist.org/packages/lezhnev74/eximport)
 [![composer.lock](https://poser.pugx.org/lezhnev74/eximport/composerlock)](https://packagist.org/packages/lezhnev74/eximport)
+
 
 
 # Eximporter
@@ -75,7 +77,20 @@ try {
 ## Usage
 This package is intended to be used in projects with Excel import functions.
 It let's you easily add a validation layer and filtering options for your data. 
-It is based on Phpoffice/phpexcel under the hood.
+It is based on PHPOffice/PHPExcel under the hood.
+
+## Installation
+```
+composer require lezhnev74/eximport
+```
+
+Requirements:
+* PHP7
+* PHP extension php_zip enabled
+* PHP extension php_xml enabled
+* PHP extension php_gd2 enabled (if not compiled in)
+* (read more)[https://github.com/PHPOffice/PHPExcel/wiki/Developer-Documentation-Prerequisites]
+
 
 ## Credits
 Dmitriy Lezhnev
